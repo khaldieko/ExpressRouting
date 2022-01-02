@@ -1,0 +1,76 @@
+<body
+  style="
+    background-image: url(https://images.unsplash.com/photo-1423666639041-f56000c27a9a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Y29udGFjdCUyMHVzfGVufDB8fDB8fA%3D%3D&w=1000&q=80);
+  "
+>
+<h1 style="font-size: 100px; margin-left: 400px;">CONTACT US</h1>
+  <form style="margin-left: 500px;"
+    method="post"
+    onsubmit="return ValidateForm(this);"
+  >
+    <table
+      style="width: 100%; max-width: 550px; border: 0"
+      cellpadding="8"
+      cellspacing="0"
+    >
+      <tr>
+        <td>
+          <label for="Name">Name*:</label>
+        </td>
+        <td>
+          <input
+            name="Name"
+            type="text"
+            maxlength="60"
+            style="width: 100%; max-width: 250px"
+          />
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <label for="PhoneNumber">Phone number:</label>
+        </td>
+        <td>
+          <input
+            name="PhoneNumber"
+            type="text"
+            maxlength="43"
+            style="width: 1000%; max-width: 250px;"
+          />
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <label for="FromEmailAddress">Email address*:</label>
+        </td>
+        <td>
+          <input
+            name="FromEmailAddress"
+            type="text"
+            maxlength="90"
+            style="width: 100%; max-width: 250px"
+          />
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <label for="Comments">Comments*:</label>
+        </td>
+        <td>
+          <textarea
+            name="Comments"
+            rows="7"
+            cols="40"
+            style="width: 100%; max-width: 350px"
+          ></textarea>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <div style="float: right"></div>
+          <input name="skip_Submit" type="submit" value="Submit" />
+        </td>
+      </tr>
+    </table>
+  </form>
+</body>
